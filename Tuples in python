@@ -1,0 +1,15 @@
+## Tuples--> Items cannot be changed
+
+Students = (
+    "Mohammed",
+    ("Rawha,23,41,32,89"),
+    "Mikdad",
+
+)
+
+print(Students[0:])
+a="Mohammed" in Students
+if a == True: 
+  print("Yeaaa Right")
+else:
+  print("Wrong")
